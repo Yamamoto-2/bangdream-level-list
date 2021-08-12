@@ -13,8 +13,9 @@
             </div>
             <div style="font-size: 30px; line-height: 1.6">
                 参与人员（不计先后）：<br>
-                原“布谷鸟”评级组 落花 mclean 庭牧 张三 自由酱 蓝亦辰 霜凡 秋葉亜里沙 FereDDo 栗丸 AlphaZeta 凡特西 瓶子<br>
-                图像制作者：山本 青芙
+                落花 mclean 庭牧 张三 自由酱 蓝亦辰 霜凡 凡特西 AlphaZeta 瓶子 秋葉亜里沙 FereDDo 栗丸 <br>
+                图像制作者：山本 青芙<br>
+                特别鸣谢：布谷鸟评级组
             </div>
         </div>
     </div>

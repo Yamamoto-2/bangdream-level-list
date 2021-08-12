@@ -4,7 +4,7 @@
             <img class="song-cover-image" :src="image" alt="cover">
             <div :class="'song-cover-bg' + (special ? ' song-cover-bg-special' : '')"></div>
             <img v-if="specialIcon" src="images/special.png" alt="special" class="song-special-icon">
-            <div class="song-diff">{{ level.toFixed(2) }}</div>
+            <div class="song-diff">{{ level.toFixed(1) }}</div>
         </div>
         <div :class="'song-title' + (special ? ' song-title-special' : '')">{{ name }}</div>
     </div>

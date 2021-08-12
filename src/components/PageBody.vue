@@ -23,7 +23,7 @@ export default {
 
         onMounted(async () => {
             const req1 = await fetch('json/diff.json');
-            const diff = await req1.json();
+            let diff = await req1.json();
             const req2 = await fetch('json/songs.json');
             const _songs = await req2.json();
             const req3 = await fetch('json/list.json');
@@ -32,6 +32,10 @@ export default {
                 return list.some(v => v.songID === song.id && v.difficulty === song.diff);
             };
             songs.value = _songs;
+            diff = diff.map(v => ({
+                ...v,
+                level: parseFloat(v.level.toFixed(1))
+            }));
             level28.value = diff.filter(v => hasSong(v) && v.level >= 28).sort((a, b) => b.level - a.level);
             level27.value = diff.filter(v => hasSong(v) && v.level >= 27 && v.level < 28).sort((a, b) => b.level - a.level);
             level26.value = diff.filter(v => hasSong(v) && v.level >= 26 && v.level < 27).sort((a, b) => b.level - a.level);

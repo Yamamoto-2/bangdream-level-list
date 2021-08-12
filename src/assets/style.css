@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none
+}
+
+@font-face {
+    font-family: 'JiaLiDaYuan';
+    src: url('font/default.ttf');
+}
+
+
+#container {
+    width: 2000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    font-family: 'JiaLiDaYuan';
+    background-image: url('images/bg.png');
+    background-repeat: repeat;
+    user-select: none;
+}
+
+
+

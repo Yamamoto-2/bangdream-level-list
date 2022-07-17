@@ -1,6 +1,6 @@
 <template>
     <div id="header">
-        <img class="header-image" src="images/header.png" alt="header">
+        <img class="header-image" src="/images/header.png" alt="header">
         <div class="header-text">
             <div style="font-size: 26px; line-height: 1.6;">
                 评级表说明：<br>

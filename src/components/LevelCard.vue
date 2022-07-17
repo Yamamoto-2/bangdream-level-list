@@ -40,14 +40,15 @@ export default {
                 return props.songs[id].musicTitle[0];
             },
             getSongImage (id) {
-                if (id === 13) return 'https://bestdori.com/assets/jp/musicjacket_tutorial/miracle_rip/assets-star-forassetbundle-tutorial-musicjacket-miracle-jacket.png';
+                if (id === 13) return 'https://bestdori.com/assets/jp/musicjacket_tutorial/miracle_rip/jacket.png';
                 if (id === 40) return 'https://bestdori.com/assets/jp/musicjacket_tutorial/kirayume_rip/assets-star-forassetbundle-tutorial-musicjacket-kirayume-jacket.png';
-                const jacket = props.songs[id].jacketImage[0];
+                const jacket = props.songs[id].jacketImage[0].toLowerCase();
                 const tenId = Math.ceil(id / 10) * 10;
                 return `https://bestdori.com/assets/jp/musicjacket/musicjacket${tenId}_rip/assets-star-forassetbundle-startapp-musicjacket-musicjacket${tenId}-${jacket}-jacket.png`
             },
             isNewSpecial (id) {
-                return parseInt(props.songs[id].difficulty[4].publishedAt[0]) >= 1615795200000;
+                const publishedAt = props.songs[id].difficulty[4].publishedAt?.[0] || props.songs[id].publishedAt[0];
+                return parseInt(publishedAt) >= 1615795200000;
             }
         }
     }
@@ -67,7 +68,7 @@ export default {
 .level-text-box{
     width: 284px;
     height: 68px;
-    background-image: url(images/diff_number.png);
+    background-image: url(/images/diff_number.png);
     background-repeat: no-repeat;
     background-size: 284px;
     color: #fff;

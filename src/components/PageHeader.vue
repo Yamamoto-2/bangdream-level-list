@@ -2,16 +2,16 @@
     <div id="header">
         <img class="header-image" src="/images/header.png" alt="header">
         <div class="header-text">
-            <div style="font-size: 26px; line-height: 1.6;">
+            <div style="font-size: 24px; line-height: 1.5;">
                 评级表说明：<br>
                 本表收录日期内<u>日服已实装曲目</u>，表中为歌曲实际难度排序。<br><br>
             </div>
-            <div style="font-size: 26px; line-height: 1.6">
+            <div style="font-size: 24px; line-height: 1.5">
                 组长：绀野纯子（鹤丸/水月）<br>
                 副组长：源樱（极·冰乱舞/挖矿人）、镜影Bly
             </div>
-            <div style="font-size: 26px; line-height: 1.6">
-                成员：栗子、幽雨、脆饼、AI黑头子、丹提诺艾、糸見結希、海葵、碳铝、xcw、秋葉亜里沙、霜凡、张三、爱丽丝、soul、遥情幻想、楠木、无名K、XLF笑凌风、麻薯、白井黑子、水野爱（zcwise，已退休）、坏坏（已退休）、庭牧（已退休）
+            <div style="font-size: 24px; line-height: 1.5">
+                成员：栗子、幽雨、脆饼、AI黑头子、丹提诺艾、糸見結希、海葵、碳铝、xcw、秋葉亜里沙、霜凡、张三、爱丽丝、soul、遥情幻想、楠木、无名K、XLF笑凌风、麻薯、白井黑子、Shin、核平、二阶堂咲、chachaW、红二、水野爱（zcwise，已退休）、坏坏（已退休）、庭牧（已退休）（排名不分先后）
             </div>
         </div>
     </div>

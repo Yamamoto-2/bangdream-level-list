@@ -47,7 +47,7 @@ export default {
                 return `https://bestdori.com/assets/jp/musicjacket/musicjacket${tenId}_rip/assets-star-forassetbundle-startapp-musicjacket-musicjacket${tenId}-${jacket}-jacket.png`
             },
             isNewSpecial (id) {
-                const publishedAt = props.songs[id].difficulty[4].publishedAt?.[0] || props.songs[id].publishedAt[0];
+                const publishedAt = props.songs[id].difficulty[4]?.publishedAt?.[0] || props.songs[id].publishedAt[0];
                 return parseInt(publishedAt) >= 1615795200000;
             }
         }

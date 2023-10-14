@@ -1,0 +1,2 @@
+node update_songrank.js
+pause

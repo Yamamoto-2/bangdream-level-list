@@ -41,7 +41,7 @@ var readrankxlsx = async function () {
     }
     await writeJSON("./public/json/diff.json", diff)
     await writeJSON("./public/json/list.json", templist)
-    await download("https://bestdori.com/api/songs/all.7.json", "./public/json/","songs.json")
+    await download("https://bestdori.com/api/songs/all.7.json", "./public/json/","songs.json",true)
     console.log(diff)
     console.log("更新完毕")
     return (diff)

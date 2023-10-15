@@ -40,8 +40,8 @@ export default {
                 return props.songs[id].musicTitle[0];
             },
             getSongImage (id) {
-                if (id === 13) return 'https://bestdori.com/assets/jp/musicjacket_tutorial/miracle_rip/jacket.png';
-                if (id === 40) return 'https://bestdori.com/assets/jp/musicjacket_tutorial/kirayume_rip/jacket.png';
+                if (id === 13) id = 24
+                if (id === 40) id = 25
                 const jacket = props.songs[id].jacketImage[0].toLowerCase();
                 const tenId = Math.ceil(id / 10) * 10;
                 return `https://bestdori.com/assets/jp/musicjacket/musicjacket${tenId}_rip/assets-star-forassetbundle-startapp-musicjacket-musicjacket${tenId}-${jacket}-jacket.png`
